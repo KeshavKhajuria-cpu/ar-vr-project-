@@ -1,0 +1,14 @@
+# MTL for Modern Lounge Chair
+newmtl Mat_Upholstery
+Ka 0.2 0.2 0.25
+Kd 0.28 0.45 0.62
+Ks 0.1 0.1 0.1
+Ns 20
+illum 2
+
+newmtl Mat_Wood
+Ka 0.2 0.15 0.1
+Kd 0.68 0.48 0.32
+Ks 0.05 0.05 0.05
+Ns 10
+illum 2

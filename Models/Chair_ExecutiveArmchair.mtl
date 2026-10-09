@@ -1,0 +1,14 @@
+# MTL for Executive Armchair
+newmtl Mat_Upholstery
+Ka 0.2 0.15 0.1
+Kd 0.52 0.28 0.14
+Ks 0.25 0.20 0.15
+Ns 35
+illum 2
+
+newmtl Mat_Metal
+Ka 0.2 0.2 0.2
+Kd 0.18 0.18 0.20
+Ks 0.6 0.6 0.6
+Ns 80
+illum 2

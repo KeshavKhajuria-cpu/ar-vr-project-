@@ -1,0 +1,948 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.5f1 (d16e074b49fd) revision 13725191'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-K6006" at "2026-10-08T20:20:01.8712832Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-08T20:20:01Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21340, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              4c6b5968ebad4be280e291e4e0e25ec1
+  Correlation Id:          77a030baa1d505e1133a67cfcfb506a3
+  External correlation Id: 5519249485101387972
+  Machine Id:              HuJULKpMD5jfgC2AibcEVVmWh+M=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-K6006" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-K6006-notifications" at "2026-10-08T20:20:01.9548913Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469981503779-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.10s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project
+-quit
+-logFile
+C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\compile.log
+Successfully changed project path to: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project
+C:/Users/K6006/OneDrive/Documents/desktop/ar vr project/ar projext/ar project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [12928]  Target information:
+
+Player connection [12928]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 686330602 [EditorId] 686330602 [Version] 1048832 [Id] WindowsEditor(7,KeshavKhajuria) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12928]  * "[IP] 172.25.182.72 [Port] 55504 [Flags] 2 [Guid] 686330602 [EditorId] 686330602 [Version] 1048832 [Id] WindowsEditor(7,KeshavKhajuria) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-28816" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+Initialize engine version: 6000.5.5f1 (d16e074b49fd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/K6006/OneDrive/Documents/desktop/ar vr project/ar projext/ar project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:          Intel
+    VRAM:            8034 MB
+    App VRAM Budget: 7376 MB
+    Driver:          32.0.101.7085
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004329 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 1174ms
+	BeginReloadAssembly (190ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (162ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (228ms)
+	FinalizeReload (501ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 63 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.3 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.collab-proxy@4f3be89e8675)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.19.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.timeline@1.8.12 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.xr.arcore@6.5.1 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.xr.arcore@35fea30a2719)
+    com.unity.xr.arfoundation@6.5.1 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.xr.arfoundation@c844efe2a48d)
+    com.unity.xr.core-utils@2.6.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.management@4.5.4 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.xr.management@e3a3882b360a)
+    com.unity.editorcoroutines@1.1.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.searcher@4.9.4 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.render-pipelines.universal@040461d037aa)
+    com.unity.test-framework@1.7.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.ugui@f2d87ebaaa32)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.mathematics@1.4.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.render-pipelines.core@b19a46951e65)
+    com.unity.shadergraph@17.5.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.shadergraph@8d7376ec43ee)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.collections@a43cabe808ca)
+[Subsystems] Looking for new subsystems at path C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.xr.arfoundation@c844efe2a48d
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/K6006/OneDrive/Documents/desktop/ar vr project/ar projext/ar project/Assets
+[Subsystems] Discovering subsystems at path C:\Users\K6006\OneDrive\Documents\desktop\ar vr project\ar projext\ar project\Library\PackageCache\com.unity.xr.arfoundation@c844efe2a48d
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  displays in Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'meshings' descriptors matched in Library/PackageCache/com.unity.xr.arfoundation@c844efe2a48d/Runtime/UnitySubsystemsManifest.json
+[Package Manager] Done registering packages in 0.05 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/K6006/OneDrive/Documents/desktop/ar vr project/ar projext/ar project
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 2s606ms
+[ 907/1170  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1166/1170  1s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1167/1170  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 150 defines and 385 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1168/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1169/1170  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (2.55 seconds), 5 items updated, 1170 evaluated
+AssetDatabase: script compilation time: 3.142247s
+Begin MonoManager ReloadAssembly
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: '649401155ceaba9da9166eac76f0e6d7') in 0.045 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=3d26150e7ff437098527d58a05629abc StaticDependenciesID=dde4f0e1b16ef54b53f67ad44097577e 
+Importing 'GUID: dc385d596f748144fb774edc833faae6 - Path: Assets/Editor' with importer (DefaultImporter)
+Imported 'GUID: dc385d596f748144fb774edc833faae6' -> (Import Result ID: '0aaaf1c8f9c5c680f3350df7112dbd23') in 0.016 seconds [static dependencies only]. Details - ImportResultOutputID=83b7e3c315812db632f34f2a1f1bba64 DependenciesID=cf4d6383f0bf8af98ddd13554eb55451 StaticDependenciesID=ddf7150e34111899db784b5657e0643a 
+Refreshing native plugins compatible for Editor in 17.81 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.56 ms, found 5 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.051 seconds
+Domain Reload Profiling: 3384ms
+	BeginReloadAssembly (392ms)
+		DisableScriptedObjects (52ms)
+		CreateAndSetChildDomain (174ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (833ms)
+		LoadAssemblies (487ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2053ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (1075ms)
+			ProcessInitializeOnLoadMethodAttributes (303ms)
+			AfterProcessingInitializeOnLoad (15ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '0c78a8ba59f17edf1bb8a47a59b4e08e') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=378ca25c6c95e370f41ed482e616ed68 DependenciesID=d99283080827ac81d1530794c14603f2 StaticDependenciesID=23a8e244614a013515e754461f63e939 
+Importing 'GUID: a1b2c3d4e5f60718293a4b5c6d7e8f90 - Path: Assets/Mat_Beagle.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a1b2c3d4e5f60718293a4b5c6d7e8f90' -> (Import Result ID: '4674d1cabe0b5c668b2b4df2999fb686') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=9272b1de2f331f952ee853f01759a2d8 DependenciesID=f5044f735b15cb754bb16dfaf90b1b81 StaticDependenciesID=71c21de663485c8aee565dc8329a4e79 
+Importing 'GUID: 81cf16f5876695640a800ae1b86abf64 - Path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 81cf16f5876695640a800ae1b86abf64' -> (Import Result ID: 'b3635f0352cb5154272e8dfa7db4888e') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=9aaa3ee579c2273b3f8340f653efb3ef DependenciesID=7f1e61926ec158ace756bcad0f7bd1e9 StaticDependenciesID=b8f333a0c09b78098f8cd57a3c691de8 
+Importing 'GUID: f288ae1f4751b564a96ac7587541f7a2 - Path: Assets/Settings/PC_Renderer.asset' with importer (NativeFormatImporter)
+Imported 'GUID: f288ae1f4751b564a96ac7587541f7a2' -> (Import Result ID: 'e7f35b63e7d633128f14c3d3f1fa34ad') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=15428fb8eba65c8a58e09e16b7e5387d DependenciesID=60cd62df854da03c0087551535e269ac StaticDependenciesID=0f40e4caec3af1a1e57f2451686d8fdd 
+Importing 'GUID: 65bc7dbf4170f435aa868c779acfb082 - Path: Assets/Settings/Mobile_Renderer.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 65bc7dbf4170f435aa868c779acfb082' -> (Import Result ID: '2b599f8e8d2effda8656adf19105f2eb') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=7c96650b2288575e6ee6ff0d1c5d6926 DependenciesID=08f934fdef2214829d10fe1f80605a23 StaticDependenciesID=5c2744de99f5b6780e94372efe91c261 
+Importing 'GUID: 1142bbad8b9e8c44c83a9775ff120d37 - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRays.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+
+Compiling Ray Tracing Shader "TraceRays.urtshader", keywords = <no keywords>
+    finished in 0.27 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 1142bbad8b9e8c44c83a9775ff120d37' -> (Import Result ID: 'c0144182ea1b9d413e08ad5804e6f31f') in 0.442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c3fe66494c1fa568fd6f39f1fbe02d1 DependenciesID=fa87248dec1ff5c1be7ede6530843b3d StaticDependenciesID=83382896bf2194e2afb7a814a9f914cd 
+Importing 'GUID: d19f4f8a13b6edb48b986a47ec96402e - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapShadowMaskIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "LightmapShadowMaskIntegration.urtshader", keywords = <no keywords>
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.37 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: d19f4f8a13b6edb48b986a47ec96402e' -> (Import Result ID: 'e51f0af1934a63d3e50ee18fc42202cd') in 0.454 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=313a9cca6e061d67238bc36f17ff47d6 DependenciesID=f612210220dae94491ee0f2ff961baa0 StaticDependenciesID=14c19d6e640993fbe77b1f068828bf12 
+Importing 'GUID: 737a1597422c12547a8714d76a9406ec - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapGBufferDebug.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "LightmapGBufferDebug.urtshader", keywords = <no keywords>
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.26 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 737a1597422c12547a8714d76a9406ec' -> (Import Result ID: 'ce7b9c191266bfead5ca1da524fa0b67') in 0.296 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45d987bb5c4993501c048e007c19214a DependenciesID=f9a0d628c97f37479b92ca11ce414ab8 StaticDependenciesID=8d11f009385b3a4cea3b53c3339efefb 
+Importing 'GUID: f32463968f29423cad25aee15a14b9f1 - Path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/PunctualLightSampling.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "PunctualLightSampling.urtshader", keywords = <no keywords>
+Shader warning in 'PunctualLightSampling': conversion from larger type 'const float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/Lighting/SurfaceCache/PunctualLightSampling.hlsl(56) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/Lighting/SurfaceCache/PunctualLightSampling.hlsl(56) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.23 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: f32463968f29423cad25aee15a14b9f1' -> (Import Result ID: '9224243c500ba3a20a7b16dc77db6c4a') in 0.281 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0fc4da0aede3f0a45f554eda5b18e115 DependenciesID=d463256029cdb13f8ce6e94b837d9682 StaticDependenciesID=fae2d39a41418b21bab2b70cd0d272f0 
+Importing 'GUID: 1451d029813b192429211be28181beab - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapNormalIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "LightmapNormalIntegration.urtshader", keywords = <no keywords>
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.22 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 1451d029813b192429211be28181beab' -> (Import Result ID: '5faa8683e279f0e376361fb9ed750c13') in 0.267 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=facc47d7ff6fa30955e7814d90ea5d27 DependenciesID=99d407b9958d0c589969d4c4cc19111d StaticDependenciesID=6695b2a8ac591a9580bdd3907887ec37 
+Importing 'GUID: 94a070d33e408384bafc1dea4a565df9 - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "TraceRenderingLayerMask.urtshader", keywords = <no keywords>
+    finished in 0.19 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 94a070d33e408384bafc1dea4a565df9' -> (Import Result ID: '0f7f02353b3f5470fa42b79b4fb222ed') in 0.221 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c62181d78c46fc772839d16141aecf0 DependenciesID=e246817a3ccd1fe03f9b1bb3b3ece1c7 StaticDependenciesID=76c56abbfe1dea1698b482e1c311a1b3 
+Importing 'GUID: 94a39d12848d8d64ca962a72b74e7c50 - Path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/Estimation.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "Estimation.urtshader", keywords = <no keywords>
+    finished in 0.24 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 94a39d12848d8d64ca962a72b74e7c50' -> (Import Result ID: '1d89f92a563d60efaa5aa769db15de05') in 0.273 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de9b09aaae42e37a659e0c0d5f51c9b4 DependenciesID=6a14303a760e69a46a17b8ff7cc98a4b StaticDependenciesID=3d83c90598d39b20511fc2d468edef81 
+Importing 'GUID: 6513c3b892e933c4f8d00c19d5c47532 - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceTransparentRays.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "TraceTransparentRays.urtshader", keywords = <no keywords>
+    finished in 0.02 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 6513c3b892e933c4f8d00c19d5c47532' -> (Import Result ID: '513a31c91d933db7f00b54b3b4677bd3') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2118c2d8f15e6c697c84c14187ad393 DependenciesID=687dc9d37c59e6f9a658fb065fe68b13 StaticDependenciesID=8372fb0bb36e1468fa9601c49a86d0e6 
+Importing 'GUID: 7624adbeb148b5c48ab5ab660cc2602a - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapIndirectIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "LightmapIndirectIntegration.urtshader", keywords = <no keywords>
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.92 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 7624adbeb148b5c48ab5ab660cc2602a' -> (Import Result ID: '2649e5e93cba3778b884473071f7d57d') in 0.966 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c3c333efa16d123729902a6ece692b4 DependenciesID=cbed18a228104f9c2dbdde08ffb6724e StaticDependenciesID=67a45332e0f51102f9bb9c93a750d036 
+Importing 'GUID: e9f4de6d1e07fb94f9a60d35b618f724 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapGBufferIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "LightmapGBufferIntegration.urtshader", keywords = <no keywords>
+    finished in 0.06 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: e9f4de6d1e07fb94f9a60d35b618f724' -> (Import Result ID: '790a4990bb7481a2e6f0b46a229b36c5') in 0.088 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3fd301a5bbe9dfc2cfbe43748964e5c7 DependenciesID=b291570b44d5b201b1ffb375d485cb51 StaticDependenciesID=8b26c93a6e3373b36ba430a420b17d9a 
+Importing 'GUID: 5a2a534753fbdb44e96c3c78b5a6999d - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "DynamicGISkyOcclusion.urtshader", keywords = <no keywords>
+    finished in 0.10 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 5a2a534753fbdb44e96c3c78b5a6999d' -> (Import Result ID: 'eb5ea65f5f271459b15a32367e0ec8c8') in 0.126 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cbc29c2799def04ef0ca52b6e2b0b521 DependenciesID=0a5a9f578e00e4093613bb4a28b83006 StaticDependenciesID=41b936436a30154af8a3b61f441fd564 
+Importing 'GUID: 5bbebdef5916845478fcef13fa10d89f - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapDirectIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "LightmapDirectIntegration.urtshader", keywords = <no keywords>
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.39 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 5bbebdef5916845478fcef13fa10d89f' -> (Import Result ID: '085ab49bc817794916f5e89e7140baa6') in 0.417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dfed2000df6d90c7ac9c1de5aab827bd DependenciesID=c32167860f56f94c727a504b5bd69389 StaticDependenciesID=49e7ce722dcdec23942b360d8297bad5 
+Importing 'GUID: fbc59f55df2416344b008dc23753cae2 - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing/TraceRaysAndFetchAttributes.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "TraceRaysAndFetchAttributes.urtshader", keywords = <no keywords>
+    finished in 0.03 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: fbc59f55df2416344b008dc23753cae2' -> (Import Result ID: '0d7e50e10ea6d3df76ad06f77dd7b0a9') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8f811361504e9b56d0c8329b4680b5b DependenciesID=ecbe69711da9fe9f8ac2ce98e8d658d0 StaticDependenciesID=8530ce6573ae9a6cd0b7e3b83f0a29ad 
+Importing 'GUID: 1c410815c01ce1d4d82c645c0cd45747 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapAOIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "LightmapAOIntegration.urtshader", keywords = <no keywords>
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.28 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 1c410815c01ce1d4d82c645c0cd45747' -> (Import Result ID: '0eb3755118bd8b45990a40ade15cc659') in 0.301 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3c72f6bd4f2ddc24fff76d29c323185 DependenciesID=4aa60427e0bafa93aca22b37b10c4f56 StaticDependenciesID=750dfd3ce8976c275bbe79cdc0d3127f 
+Importing 'GUID: 2c32233d92a2d0745930664c087c5c9a - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationValidity.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "ProbeIntegrationValidity.urtshader", keywords = <no keywords>
+    finished in 0.13 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 2c32233d92a2d0745930664c087c5c9a' -> (Import Result ID: '6a0edee64eea99f0773e24f549ed2ba0') in 0.159 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57e1f83801ab035c05b8aa1b5ba19d20 DependenciesID=a83bffaaa13f2fd29b0daf5fd38d994e StaticDependenciesID=29b4a31e24ae88c796e0b3135dc8eb9b 
+Importing 'GUID: ace95ac84e213794891b4bd7c9b3c158 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapValidityIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "LightmapValidityIntegration.urtshader", keywords = <no keywords>
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.23 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: ace95ac84e213794891b4bd7c9b3c158' -> (Import Result ID: '6032031060b53b8448f7dddfe9a159be') in 0.250 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba865b8308bcb4130447cfbbb7a98b63 DependenciesID=f8b0c1c26c5824c53a1d71192518bad1 StaticDependenciesID=ba52e4c5fecd98843b40eedfc4866f08 
+Importing 'GUID: 5ecdabd800f05984696f22ba95284516 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationIndirect.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "ProbeIntegrationIndirect.urtshader", keywords = <no keywords>
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.50 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 5ecdabd800f05984696f22ba95284516' -> (Import Result ID: 'a2871ba35dd588be51de0740a2848f9d') in 0.525 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3372fff912ae8fd2a7c02a31b7978461 DependenciesID=5e2283bbcaed4dc788e1b298069f4d94 StaticDependenciesID=e2c127f94ccdcb83ca23463fb1f2a2e5 
+Importing 'GUID: 6e0b547bab30a804c8123974120d583f - Path: Packages/com.unity.render-pipelines.core/Tests/Runtime/PathTracing/PathIteratorTest.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "PathIteratorTest.urtshader", keywords = <no keywords>
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.67 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 6e0b547bab30a804c8123974120d583f' -> (Import Result ID: '4bf1387c5a5d98c859ee38641c316775') in 0.714 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46da53dbc37f4aab308b0e499c09ca9a DependenciesID=3c5292ce7b4a6fcb8d8ace02c1b0f9db StaticDependenciesID=109768bf87f2aa9106ce5a61082f1a11 
+Importing 'GUID: de3013e16d99f2746ab1735ec06a660b - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationOcclusion.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "ProbeIntegrationOcclusion.urtshader", keywords = <no keywords>
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.29 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: de3013e16d99f2746ab1735ec06a660b' -> (Import Result ID: '084aabd13d175dd473a694b1db754404') in 0.313 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ede95030eab1c775d89fc97c980283a6 DependenciesID=728f252fbbda66d75e6b582525484c33 StaticDependenciesID=b27c26bc9001d433eb4742192dec8cdb 
+Importing 'GUID: 1f9bfe60b4ad75943a5281839c1a4e5c - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationDirect.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "ProbeIntegrationDirect.urtshader", keywords = <no keywords>
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.30 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: 1f9bfe60b4ad75943a5281839c1a4e5c' -> (Import Result ID: 'd5fbf9e8c43465e165663f9171083bdd') in 0.324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3cecaea049dd43445104cddd39f4befa DependenciesID=169b00a77c97c65ce3e28564db6e6cf0 StaticDependenciesID=9976b23c91526db98b62402ee2637b09 
+Importing 'GUID: ff2cbab5da58bf04d82c5f34037ed123 - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+
+Compiling Ray Tracing Shader "TraceVirtualOffset.urtshader", keywords = <no keywords>
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+    finished in 0.10 seconds. Local cache hits 0, remote cache hits 0, compiled 1 platform variants
+Imported 'GUID: ff2cbab5da58bf04d82c5f34037ed123' -> (Import Result ID: '1fdb00021dd134c35f5aab83928e98e0') in 0.123 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=972ef27a8c1e57222654c119902e931d DependenciesID=f1ef2d62ba60be77bed960fd04a821f8 StaticDependenciesID=bb01cef5f5bbfce7bb5614b4f3a2af7b 
+Importing 'GUID: c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4 - Path: Assets/AR_Default_Plane.prefab' with importer (PrefabImporter)
+Problem detected while importing the Prefab file: 'Assets/AR_Default_Plane.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Component (MeshRenderer) has a broken GameObject reference. Fixing.
+Imported 'GUID: c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4' -> (Import Result ID: '12bf06e9a89b02ce5e2f74cd7bd7f0f2') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31b5a777c73888dd64fc4fb50fb44178 DependenciesID=d46e735d58fb7cbff98fc542bf62c744 StaticDependenciesID=98ddd5eb3f76c677533fb35398a06b45 
+Importing 'GUID: 4b5acbfdda6b17940ae64b48d690215f - Path: Assets/Mesh_Beagle.prefab' with importer (PrefabImporter)
+Imported 'GUID: 4b5acbfdda6b17940ae64b48d690215f' -> (Import Result ID: '9ddbadb2e9823579d14f20ecce82a179') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=c1205702a12fa39656e54e411714c30a DependenciesID=cae673373cffb789dbd1c902c2729eae StaticDependenciesID=9f5dcb5b18abec6aee73c5e65891866b 
+Starting new worker id: 0 with log in C:/Users/K6006/OneDrive/Documents/desktop/ar vr project/ar projext/ar project/Logs/AssetImportWorkerHW0.log
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapShadowMaskIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapDirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'ProbeIntegrationIndirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'const float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/Lighting/SurfaceCache/PunctualLightSampling.hlsl(56) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/Lighting/SurfaceCache/PunctualLightSampling.hlsl(56) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'PunctualLightSampling': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapIndirectIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapGBufferDebug': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapNormalIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'PathIteratorTest': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'ProbeIntegrationDirect': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'TraceVirtualOffset': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapValidityIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'ProbeIntegrationOcclusion': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Environment/EnvironmentImportanceSampling.hlsl(19) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(301) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/Runtime/PathTracing/Shaders/LightSampling.hlsl(602) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(90) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(373) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(387) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(388) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/CommonLighting.hlsl(506) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(18) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(29) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(272) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'uint' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Fibonacci.hlsl(279) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Hammersley.hlsl(25) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float3' to smaller type 'min16float3', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(144) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(316) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(317) (on d3d11)
+Shader warning in 'LightmapAOIntegration': conversion from larger type 'float' to smaller type 'min16float', possible loss of data [-Wconversion] at project/Library/PackageCache/com.unity.render-pipelines.core@b19a46951e65/ShaderLibrary/Sampling/Sampling.hlsl(318) (on d3d11)
+Refreshing native plugins compatible for Editor in 9.04 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=08df3a2c05d595745b1ee9b17a7b1062): Total: 15.798 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=30 (actual=30, local cache=0, cache server=0)
+		Asset DB Process Time: managed=11 ms, native=9654 ms
+		Asset DB Callback time: managed=729 ms, native=741 ms
+		Scripting: domain reloads=1, domain reload time=1429 ms, compile time=3146 ms, other=84 ms
+		Project Asset Count: scripts=1586, non-scripts=2449
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 60.052ms
+	ApplyChangesToAssetFolders: 1.101ms
+	Scan: 229.435ms
+	Collect global state as custom dependencies: 6.362ms
+	OnSourceAssetsModified: 0.905ms
+	CategorizeScriptCompilationAssets: 55.130ms
+	ProcessAssetsWithTransientArtifactChanges: 93.761ms
+	CategorizeAssets: 99.422ms
+	CompileScripts: 3146.046ms
+	ImportOutOfDateAssets: 8979.646ms (2103.259ms without children)
+		ImportManagerImport: 6775.308ms (12.900ms without children)
+			UpdateCategorizedAssets: 1.870ms
+		ReloadNativeAssets: 0.060ms
+		UnloadImportedAssets: 2.987ms
+		ReloadImportedAssets: 2.168ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.100ms
+		ImportSchedulerStart: 96.911ms
+	PostProcessAllAssets: 1397.468ms
+		ComputeShaderImportPostprocess 326.621ms
+		RaytracingShaderImportPostprocess 316.565ms
+		VCAutoAddAssetPostprocess 13.495ms
+		XRBuildSystem.XRAssetImported 2.755ms
+		PostProcessCallbackCreateDeferredMaterials 0.872ms
+		WindowTitlePostprocess 0.459ms
+		ShaderAssetModifiedCallback 0.136ms
+		AssemblyValidation.PostprocessAllAssets 0.076ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.074ms
+		SpeedTreeImporter.PostprocessAllAssets 0.060ms
+		BlockShaderImporter.PostprocessAllAssets 0.055ms
+		MonoPostProcessAllAssets: 725.704ms
+			AssetPostprocessor.OnPostprocessAllAssets 345.394ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 78.569ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 61.571ms
+			AssetCallbacks.OnPostprocessAllAssets 47.473ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 31.292ms
+			SyncVS.PostprocessSyncProject 31.047ms
+			MaterialPostprocessor.OnPostprocessAllAssets 10.538ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 9.485ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 8.029ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 7.563ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.461ms
+			AssetChangedListener.OnPostprocessAllAssets 4.426ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 4.420ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.503ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 2.646ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.789ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.355ms
+			PostProcessor.OnPostprocessAllAssets 1.352ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.327ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.274ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.180ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.147ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.998ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.980ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.979ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.688ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.656ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.581ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.559ms
+			AssetEvents.OnPostprocessAllAssets 0.515ms
+			EnvironmentAssetPostprocessor.OnPostprocessAllAssets 0.493ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.479ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.426ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.413ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.353ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.185ms
+	PostAssetChangesProfiler: 17.359ms
+	UnloadStreamsBegin: 4.243ms
+	PersistCurrentRevisions: 1.985ms
+	GenerateScriptTypeHashes: 5.615ms
+	GenerateScriptTypeSerializationHashes: 10.700ms
+	Untracked: 1689.696ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 4.471ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ar project
+Worker ready: AssetImportWorkerHW0 0
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7518 unused Assets / (14.8 MB). Loaded Objects now: 8390.
+Memory consumption went from 470.2 MB to 455.4 MB.
+Total: 32.112200 ms (FindLiveObjects: 1.559400 ms CreateObjectMapping: 6.888800 ms MarkObjects: 10.893400 ms  DeleteObjects: 11.145800 ms)
+
+Batchmode quit successfully invoked - shutting down!
+Curl error 42: Callback aborted
+Killing ADB server in 0.1761611 seconds.
+Importing 'GUID: a1b2c3d4e5f60718293a4b5c6d7e8f90 - Path: Assets/Mat_Beagle.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a1b2c3d4e5f60718293a4b5c6d7e8f90' -> (Import Result ID: '7f92b0ef88d63d6d097269cc9599ce44') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=9272b1de2f331f952ee853f01759a2d8 DependenciesID=feceb86435cdd92e35755eb54d84763c StaticDependenciesID=9fa5ee1b790b80bdfac90143885bb391 
+Refreshing native plugins compatible for Editor in 11.45 ms, found 5 plugins.
+Asset Pipeline Refresh (id=c6dfa1c0fd71aa64296fad451c6d2250): Total: 0.206 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Call to StopSubsystems without an initialized manager.Please make sure wait for initialization to complete before calling this API.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.XR.Management.XRManagerSettings:StopSubsystems () (at ./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:423)
+UnityEngine.XR.Management.XRManagerSettings:OnDisable () (at ./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs:477)
+
+(Filename: ./Library/PackageCache/com.unity.xr.management@e3a3882b360a/Runtime/XRManagerSettings.cs Line: 423)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-K6006-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-K6006 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

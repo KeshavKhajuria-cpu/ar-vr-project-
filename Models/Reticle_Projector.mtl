@@ -1,0 +1,6 @@
+# MTL for Reticle Projector
+newmtl Mat_Reticle
+Ka 0.0 0.8 1.0
+Kd 0.0 0.9 1.0
+d 0.85
+illum 1

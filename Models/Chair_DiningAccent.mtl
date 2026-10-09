@@ -1,0 +1,14 @@
+# MTL for Dining Accent Chair
+newmtl Mat_Upholstery
+Ka 0.2 0.2 0.2
+Kd 0.35 0.36 0.38
+Ks 0.15 0.15 0.15
+Ns 25
+illum 2
+
+newmtl Mat_Wood
+Ka 0.2 0.15 0.1
+Kd 0.62 0.42 0.28
+Ks 0.05 0.05 0.05
+Ns 10
+illum 2
